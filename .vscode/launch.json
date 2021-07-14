@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-PeopleApplication<people>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.system.PeopleApplication",
+            "projectName": "people",
+            "args": ""
+        }
+    ]
+}

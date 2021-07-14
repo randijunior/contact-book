@@ -1,0 +1,21 @@
+spring:
+    datasource:
+        url: jdbc:postgresql://ec2-34-193-101-0.compute-1.amazonaws.com:5432/d2mrp4engf5n6p
+        username: uwpfiegsjdekpr
+        password: 8e7c11ad1c32ae72dd390c51b12b90c4a1be8f3ff331fb8da52cb8ef964fabd5
+        #url: jdbc:postgresql://localhost:5432/postgres
+        #username: postgres
+        #password: 1234
+        driver-class-name: org.postgresql.Driver
+    jpa:
+        show-sql: true
+        hibernate:
+            ddl-auto: none
+            #ddl-auto: create-drop
+        database-platform: org.hibernate.dialect.PostgreSQL94Dialect
+    h2:
+        console:
+            enabled: true
+
+jwt:
+    secret: javainuse
